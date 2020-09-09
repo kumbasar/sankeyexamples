@@ -1,0 +1,29 @@
+{
+    "name":"Job Search Sankey Diagram",
+    "date":"09092020",
+    "label": [
+      { "name":"DevOps", "color":"blue", "status": [
+        {"noresponse":10, "response":3, "offer":1, "interviewed":2 ,"nooffer":1, "rejected":1 }
+      ] },
+      { "name":"SW Developer", "color":"blue", "status": [
+        {"noresponse":1, "response":4, "offer":1, "interviewed":2 ,"nooffer":1, "rejected":2 }
+      ] },
+      { "name":"Test Developer", "color":"blue", "status": [
+        {"noresponse":1, "response":1, "offer":1, "interviewed":1 ,"nooffer":0, "rejected":0 }
+      ] },
+      { "name":"Support", "color":"blue", "status": [
+        {"noresponse":3, "response":1, "offer":0, "interviewed":1 ,"nooffer":1, "rejected":0 }
+      ] },
+      { "name":"Other", "color":"blue", "status": [
+        {"noresponse":1, "response":0, "offer":0, "interviewed":0 ,"nooffer":0, "rejected":0 }
+      ] }
+    ],
+    "status": [
+        { "id":"noresponse", "name":"No Response", "color":"lime" },
+        { "id":"response", "name":"Response", "color":"grey" },
+        { "id":"rejected", "name":"Rejected", "color":"red" },
+        { "id":"interviewed", "name":"Interviewed", "color":"cyan" },
+        { "id":"nooffer", "name":"No Offer", "color":"yellow" },
+        { "id":"offer", "name":"Offer", "color":"green" }       
+    ]
+}
